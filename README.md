@@ -93,7 +93,7 @@ All analysis reads the saved event logs; nothing calls a model.
 .venv/bin/python scripts/monitor_panel.py runs/monitor-v1     # claim-monitor and Git panels
 .venv/bin/python scripts/guilt_screen.py                      # disclosure / concealment screen around each first edit
 .venv/bin/python scripts/telephone_chain.py                   # message lineage for a selected run
-.venv/bin/python work/figures/fig2_messaging.py               # main results figure -> figures/
+.venv/bin/python work/figures/fig1_headline.py               # Figure 1 (headline bars) -> figures/
 ```
 
 `results_table.py` expects the run directories named in its `CELLS` list. Edit those globs if your
