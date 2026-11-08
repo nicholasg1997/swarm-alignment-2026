@@ -9,5 +9,5 @@ vendor/troy-moment/
 swarm_traces/
 .superpowers/
 .env
-results/
-figures/
+/results/
+/figures/
