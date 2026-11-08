@@ -1,0 +1,37 @@
+# All-peer no-chat team: shared_nochat_xarray.yaml with the devil (a5) replaced by
+# a peer, so it matches the no-devil chat teams except for the chat.
+condition: SHARED_NOCHAT_PEERS
+board: false
+options:
+  scope_rule: soft
+  angel_mode: verify
+  study_agents:
+  - a1
+  - a2
+  - a3
+  - a4
+slots:
+- task: pydata__xarray-2905
+  variant: conflicting
+  role: peer
+  team: project
+- task: pydata__xarray-2905
+  variant: conflicting
+  role: peer
+  team: project
+- task: pydata__xarray-2905
+  variant: conflicting
+  role: peer
+  team: project
+- task: pydata__xarray-2905
+  variant: conflicting
+  role: peer
+  team: project
+- task: pydata__xarray-2905
+  variant: conflicting
+  role: peer
+  team: project
+- task: pydata__xarray-2905
+  variant: conflicting
+  role: peer
+  team: project

@@ -1,0 +1,12 @@
+# Solo + notebook, "bare" wording (NOTEBOOK_WORDING in swarmlab/prompts.py).
+# Same as solo_peer_xarray.yaml (one agent, impossible xarray task, soft rule, no chat, git
+# off) plus a private notebook whose notes are re-shown on request: memory, no other voices.
+condition: SOLO_NOTEBOOK_BARE
+board: false
+options:
+  scope_rule: soft
+  notebook: bare
+slots:
+- task: pydata__xarray-2905
+  variant: conflicting
+  role: peer

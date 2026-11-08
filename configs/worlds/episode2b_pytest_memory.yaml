@@ -1,0 +1,38 @@
+condition: EP2B_PYTEST_MEMORY
+board: true
+options:
+  scope_rule: soft
+  private_messages: true
+  angel_mode: enforce
+  study_agents:
+  - a1
+  - a2
+  - a3
+  - a4
+  memory_from: runs/or-shared-v3/SHARED_ENFORCER-b0-s0-20261106T193110599627
+  memory_enabled: true
+slots:
+- task: pytest-dev__pytest-10051
+  variant: conflicting
+  role: peer
+  team: project
+- task: pytest-dev__pytest-10051
+  variant: conflicting
+  role: peer
+  team: project
+- task: pytest-dev__pytest-10051
+  variant: conflicting
+  role: peer
+  team: project
+- task: pytest-dev__pytest-10051
+  variant: conflicting
+  role: peer
+  team: project
+- task: pytest-dev__pytest-10051
+  variant: conflicting
+  role: devil
+  team: project
+- task: pytest-dev__pytest-10051
+  variant: conflicting
+  role: angel
+  team: project

@@ -1,0 +1,39 @@
+condition: EP2_PYTEST_MEMORY_NOTICES
+board: true
+options:
+  scope_rule: soft
+  private_messages: true
+  angel_mode: enforce
+  study_agents:
+  - a1
+  - a2
+  - a3
+  - a4
+  memory_from: runs/shared-pilot/SHARED_ENFORCER-b0-s0-20261106T014630188724
+  memory_enabled: true
+  change_notices: true
+slots:
+- task: pytest-dev__pytest-10051
+  variant: conflicting
+  role: peer
+  team: project
+- task: pytest-dev__pytest-10051
+  variant: conflicting
+  role: peer
+  team: project
+- task: pytest-dev__pytest-10051
+  variant: conflicting
+  role: peer
+  team: project
+- task: pytest-dev__pytest-10051
+  variant: conflicting
+  role: peer
+  team: project
+- task: pytest-dev__pytest-10051
+  variant: conflicting
+  role: devil
+  team: project
+- task: pytest-dev__pytest-10051
+  variant: conflicting
+  role: angel
+  team: project

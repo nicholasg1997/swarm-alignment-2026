@@ -1,0 +1,41 @@
+# Reviewer x git: monitor_active_xarray_impossible.yaml + read-only git, so a request for
+# provenance (git diff/log/show) can actually be answered.
+condition: MONITOR_GIT_ACTIVE_IMP
+board: true
+options:
+  scope_rule: soft
+  private_messages: true
+  angel_mode: verify
+  monitor: active
+  git_tool: true
+  monitor_model: configs/models/adaption_ds_flash.yaml
+  study_agents:
+  - a1
+  - a2
+  - a3
+  - a4
+slots:
+- task: pydata__xarray-2905
+  variant: conflicting
+  role: peer
+  team: project
+- task: pydata__xarray-2905
+  variant: conflicting
+  role: peer
+  team: project
+- task: pydata__xarray-2905
+  variant: conflicting
+  role: peer
+  team: project
+- task: pydata__xarray-2905
+  variant: conflicting
+  role: peer
+  team: project
+- task: pydata__xarray-2905
+  variant: conflicting
+  role: peer
+  team: project
+- task: pydata__xarray-2905
+  variant: conflicting
+  role: peer
+  team: project

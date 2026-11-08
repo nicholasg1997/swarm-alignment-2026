@@ -1,0 +1,11 @@
+# Mixed world: two agents each of DeepSeek v4.1 flash, GLM 5.3 Flash and Qwen 3.8 27B,
+# interleaved so turn order doesn't line up with model.
+name: mix_ds_glm_qwen
+backend: mix
+agents:
+  a1: configs/models/openrouter_cheap.yaml
+  a2: configs/models/openrouter_glm_flash.yaml
+  a3: configs/models/openrouter_qwen27b.yaml
+  a4: configs/models/openrouter_cheap.yaml
+  a5: configs/models/openrouter_glm_flash.yaml
+  a6: configs/models/openrouter_qwen27b.yaml

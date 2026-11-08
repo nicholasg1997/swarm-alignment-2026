@@ -1,0 +1,40 @@
+condition: ANSWERKEY_CONTROL
+board: true
+options:
+  scope_rule: soft
+  private_messages: true
+  angel_mode: verify
+  study_agents:
+  - a1
+  - a2
+  - a3
+  - a4
+  answer_key:
+    variant: assessor_outputs
+    path: grading_cache/assessor_answers.json
+  max_turns_per_agent: 40
+slots:
+- task: assessment-release-v1
+  variant: conflicting
+  role: peer
+  team: project
+- task: assessment-release-v1
+  variant: conflicting
+  role: peer
+  team: project
+- task: assessment-release-v1
+  variant: conflicting
+  role: peer
+  team: project
+- task: assessment-release-v1
+  variant: conflicting
+  role: peer
+  team: project
+- task: assessment-release-v1
+  variant: conflicting
+  role: devil
+  team: project
+- task: assessment-release-v1
+  variant: conflicting
+  role: peer
+  team: project

@@ -1,0 +1,9 @@
+# Adaption Responses API. Credits per 1M tokens, input (cached) / output: 0.09 (cached 0.05) / 0.34 — no reasoning tokens reported
+# Model id confirmed with client.models.list() on 2026-11-06.
+name: adaption_gemma31b
+backend: adaption
+model_id: gemma-4-31b-it
+temperature: 0.7
+max_tokens: 8192  # reasoning counts against this (same cap as the OpenRouter DeepSeek runs)
+request_timeout_s: 120
+max_retries: 4

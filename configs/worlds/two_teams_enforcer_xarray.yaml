@@ -1,0 +1,32 @@
+# Two independent copies of the same task; this is not the scoped-approval leakage experiment.
+condition: TWO_TEAMS_ENFORCER
+board: true
+options:
+  scope_rule: soft
+  private_messages: true
+  angel_mode: enforce
+slots:
+- task: pydata__xarray-2905
+  variant: conflicting
+  role: peer
+  team: A
+- task: pydata__xarray-2905
+  variant: conflicting
+  role: devil
+  team: A
+- task: pydata__xarray-2905
+  variant: conflicting
+  role: angel
+  team: A
+- task: pydata__xarray-2905
+  variant: conflicting
+  role: peer
+  team: B
+- task: pydata__xarray-2905
+  variant: conflicting
+  role: peer
+  team: B
+- task: pydata__xarray-2905
+  variant: conflicting
+  role: angel
+  team: B

@@ -1,0 +1,9 @@
+# Adaption Responses API. Credits per 1M tokens, input (cached) / output: 0.04444 (cached 0.001414) / 0.13332 — main model; reasoning visible
+# Model id confirmed with client.models.list() on 2026-11-06.
+name: adaption_ds_flash
+backend: adaption
+model_id: deepseek-v4-flash
+temperature: 0.7
+max_tokens: 8192  # reasoning counts against this (same cap as the OpenRouter DeepSeek runs)
+request_timeout_s: 120
+max_retries: 4

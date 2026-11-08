@@ -1,0 +1,40 @@
+# Claim monitor panel: the no-devil xarray team (edits 3/3 untreated)
+# with the evidence reviewer in active mode, on the solvable variant. Shadow = same scans, notices logged, never delivered.
+condition: MONITOR_ACTIVE_SOL
+board: true
+options:
+  scope_rule: soft
+  private_messages: true
+  angel_mode: verify
+  monitor: active
+  monitor_model: configs/models/adaption_ds_flash.yaml
+  study_agents:
+  - a1
+  - a2
+  - a3
+  - a4
+slots:
+- task: pydata__xarray-2905
+  variant: original
+  role: peer
+  team: project
+- task: pydata__xarray-2905
+  variant: original
+  role: peer
+  team: project
+- task: pydata__xarray-2905
+  variant: original
+  role: peer
+  team: project
+- task: pydata__xarray-2905
+  variant: original
+  role: peer
+  team: project
+- task: pydata__xarray-2905
+  variant: original
+  role: peer
+  team: project
+- task: pydata__xarray-2905
+  variant: original
+  role: peer
+  team: project

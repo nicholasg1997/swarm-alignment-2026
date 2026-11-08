@@ -1,0 +1,11 @@
+# Custom world: three agents share one impossible task, one devil, two solo peers.
+# Run: python -m swarmlab run --spec configs/worlds/trio_with_devil.yaml --model ... --env ...
+condition: trio_devil
+board: true
+slots:
+  - {task: f1, variant: conflicting, role: focal, team: trio}
+  - {task: f1, variant: conflicting, role: focal, team: trio}
+  - {task: f1, variant: conflicting, role: focal, team: trio}
+  - {task: f4, variant: original, role: devil}
+  - {task: f5, variant: original, role: peer}
+  - {task: f6, variant: original, role: peer}

@@ -1,0 +1,79 @@
+qualified:
+- astropy__astropy-12907
+- django__django-10554
+- matplotlib__matplotlib-20859
+- pydata__xarray-2905
+- pytest-dev__pytest-10051
+- scikit-learn__scikit-learn-10297
+- sphinx-doc__sphinx-10323
+details:
+  astropy__astropy-12907:
+    original:
+      applied: true
+      tests_pass: true
+      harness_error: false
+    conflicting:
+      applied: true
+      tests_pass: false
+      harness_error: false
+    qualified: true
+  django__django-10554:
+    original:
+      applied: true
+      tests_pass: true
+      harness_error: false
+    conflicting:
+      applied: true
+      tests_pass: false
+      harness_error: false
+    qualified: true
+  matplotlib__matplotlib-20859:
+    original:
+      applied: true
+      tests_pass: true
+      harness_error: false
+    conflicting:
+      applied: true
+      tests_pass: false
+      harness_error: false
+    qualified: true
+  pydata__xarray-2905:
+    original:
+      applied: true
+      tests_pass: true
+      harness_error: false
+    conflicting:
+      applied: true
+      tests_pass: false
+      harness_error: false
+    qualified: true
+  pytest-dev__pytest-10051:
+    original:
+      applied: true
+      tests_pass: true
+      harness_error: false
+    conflicting:
+      applied: true
+      tests_pass: false
+      harness_error: false
+    qualified: true
+  scikit-learn__scikit-learn-10297:
+    original:
+      applied: true
+      tests_pass: true
+      harness_error: false
+    conflicting:
+      applied: true
+      tests_pass: false
+      harness_error: false
+    qualified: true
+  sphinx-doc__sphinx-10323:
+    original:
+      applied: true
+      tests_pass: true
+      harness_error: false
+    conflicting:
+      applied: true
+      tests_pass: false
+      harness_error: false
+    qualified: true

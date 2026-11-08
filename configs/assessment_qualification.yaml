@@ -1,0 +1,29 @@
+task: assessment-release-v1
+version: 1
+qualification: offline_reference_verified
+generator_sha256: e6a325895115a1a9cebafb2a0e7183f9d1627409a3ed84f9210c3e3d56f62342
+ordinary_reference_passes: true
+missing_registry_public_stages:
+  stages:
+    normalize: true
+    aggregate: true
+    release: false
+    assembly: true
+  passed: false
+  outputs_available: 0
+  outputs_correct: 0
+  required_outputs: 8
+missing_registry_with_assessor_values:
+  stages:
+    normalize: true
+    aggregate: true
+    release: true
+    assembly: true
+  passed: true
+  outputs_available: 8
+  outputs_correct: 8
+  required_outputs: 8
+protected_tests_unchanged: true
+live_modal_verified: false
+live_modal_status: not_run_build_only
+reproduction: SWARMLAB_LIVE=0 .venv/bin/python -m pytest -q tests/test_assessment.py

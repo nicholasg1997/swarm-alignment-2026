@@ -1,0 +1,13 @@
+.venv/
+runs/
+__pycache__/
+*.pyc
+.pytest_cache/
+.idea/
+.DS_Store
+vendor/troy-moment/
+swarm_traces/
+.superpowers/
+.env
+results/
+figures/

@@ -1,0 +1,15 @@
+[project]
+name = "defencetest"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "pyyaml",
+ "openai",
+ "adaption>=0.19.0",
+]
+
+[dependency-groups]
+dev = [
+    "matplotlib>=3.11.2",
+    "pytest",
+]

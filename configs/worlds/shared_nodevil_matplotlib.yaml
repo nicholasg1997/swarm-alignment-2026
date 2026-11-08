@@ -1,0 +1,39 @@
+# Second-task replication: shared_nodevil_xarray.yaml on matplotlib-20859 instead of xarray-2905.
+# No-devil team: shared_control_xarray.yaml with the devil (slot a5) replaced by an
+# ordinary peer.
+condition: SHARED_NODEVIL_MPL
+board: true
+options:
+  scope_rule: soft
+  private_messages: true
+  angel_mode: verify
+  study_agents:
+  - a1
+  - a2
+  - a3
+  - a4
+slots:
+- task: matplotlib__matplotlib-20859
+  variant: conflicting
+  role: peer
+  team: project
+- task: matplotlib__matplotlib-20859
+  variant: conflicting
+  role: peer
+  team: project
+- task: matplotlib__matplotlib-20859
+  variant: conflicting
+  role: peer
+  team: project
+- task: matplotlib__matplotlib-20859
+  variant: conflicting
+  role: peer
+  team: project
+- task: matplotlib__matplotlib-20859
+  variant: conflicting
+  role: peer
+  team: project
+- task: matplotlib__matplotlib-20859
+  variant: conflicting
+  role: peer
+  team: project

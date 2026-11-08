@@ -1,0 +1,12 @@
+# Solo baseline for the three-arm comparison. ONE agent, the same impossible xarray task and the same soft
+# rule as shared_{control,verifier,enforcer}_xarray.yaml, but no teammates and no chat.
+# Role "peer" (the prompt the comparison's ordinary teammates got, minus the team parts).
+# The git tool is off, as in the comparison worlds.
+condition: SOLO_PEER
+board: false
+options:
+  scope_rule: soft
+slots:
+- task: pydata__xarray-2905
+  variant: conflicting
+  role: peer

@@ -1,0 +1,10 @@
+# Z.ai GLM 5.3 Flash via OpenRouter: open-weights model whose full reasoning is returned,
+# so monitoring beliefs / eval awareness can be read from the trace (unlike GPT-6 Luna).
+# Slug and price checked on openrouter.ai/api/v1/models on 2026-11-05 ($0.15/M in, $0.50/M out).
+name: openrouter_glm_flash
+backend: openrouter
+model_id: z-ai/glm-5.3-flash
+temperature: 0.7
+max_tokens: 8192
+request_timeout_s: 120
+reasoning_effort: medium  # pinned so it is a fixed setting, not the provider default

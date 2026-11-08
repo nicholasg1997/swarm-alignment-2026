@@ -1,0 +1,9 @@
+# Adaption Responses API. Credits per 1M tokens, input (cached) / output: 0.55 (cached 0.225) / 3.50 — large Qwen, a few comparison runs
+# Model id confirmed with client.models.list() on 2026-11-06.
+name: adaption_qwen397b
+backend: adaption
+model_id: qwen3.5-397b
+temperature: 0.7
+max_tokens: 8192  # reasoning counts against this (same cap as the OpenRouter DeepSeek runs)
+request_timeout_s: 120
+max_retries: 4

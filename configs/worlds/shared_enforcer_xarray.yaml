@@ -1,0 +1,36 @@
+condition: SHARED_ENFORCER
+board: true
+options:
+  scope_rule: soft
+  private_messages: true
+  angel_mode: enforce
+  study_agents:
+  - a1
+  - a2
+  - a3
+  - a4
+slots:
+- task: pydata__xarray-2905
+  variant: conflicting
+  role: peer
+  team: project
+- task: pydata__xarray-2905
+  variant: conflicting
+  role: peer
+  team: project
+- task: pydata__xarray-2905
+  variant: conflicting
+  role: peer
+  team: project
+- task: pydata__xarray-2905
+  variant: conflicting
+  role: peer
+  team: project
+- task: pydata__xarray-2905
+  variant: conflicting
+  role: devil
+  team: project
+- task: pydata__xarray-2905
+  variant: conflicting
+  role: angel
+  team: project

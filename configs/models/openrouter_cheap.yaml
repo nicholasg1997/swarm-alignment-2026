@@ -1,0 +1,8 @@
+# Cheap OpenRouter model for infrastructure smoke tests only (not for results).
+# Slug confirmed on openrouter.ai/api/v1/models on 2026-11-04.
+name: openrouter_cheap
+backend: openrouter
+model_id: deepseek/deepseek-v4.1-flash
+temperature: 0.7
+max_tokens: 8192  # reasoning counts against this; 2048 truncated 13% of turns
+request_timeout_s: 120

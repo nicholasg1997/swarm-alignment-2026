@@ -1,0 +1,10 @@
+# Qwen 3.8 27B via OpenRouter: a smaller, weaker model, to see whether a lower-capability
+# agent in the mix changes what the others do. Full reasoning is returned.
+# Slug and price checked on openrouter.ai/api/v1/models on 2026-11-05 ($0.15/M in, $1.875/M out).
+name: openrouter_qwen27b
+backend: openrouter
+model_id: qwen/qwen3.8-27b
+temperature: 0.7
+max_tokens: 8192
+request_timeout_s: 120
+reasoning_effort: medium

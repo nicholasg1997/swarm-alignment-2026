@@ -1,0 +1,11 @@
+# Mixed-model team: odd agents DeepSeek v4.1 (OpenRouter), even agents
+# qwen3.5-397B (Adaption), interleaved. Do models' quirks compound (e.g. Qwen's phantom teammates)?
+name: mix_ds_qwen397b
+backend: mix
+agents:
+  a1: configs/models/openrouter_cheap.yaml
+  a2: configs/models/adaption_qwen397b.yaml
+  a3: configs/models/openrouter_cheap.yaml
+  a4: configs/models/adaption_qwen397b.yaml
+  a5: configs/models/openrouter_cheap.yaml
+  a6: configs/models/adaption_qwen397b.yaml

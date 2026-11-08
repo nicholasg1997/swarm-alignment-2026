@@ -1,0 +1,38 @@
+# No-devil team: shared_control_xarray.yaml with the devil (slot a5) replaced by an
+# ordinary peer.
+condition: SHARED_NODEVIL
+board: true
+options:
+  scope_rule: soft
+  private_messages: true
+  angel_mode: verify
+  study_agents:
+  - a1
+  - a2
+  - a3
+  - a4
+slots:
+- task: pydata__xarray-2905
+  variant: conflicting
+  role: peer
+  team: project
+- task: pydata__xarray-2905
+  variant: conflicting
+  role: peer
+  team: project
+- task: pydata__xarray-2905
+  variant: conflicting
+  role: peer
+  team: project
+- task: pydata__xarray-2905
+  variant: conflicting
+  role: peer
+  team: project
+- task: pydata__xarray-2905
+  variant: conflicting
+  role: peer
+  team: project
+- task: pydata__xarray-2905
+  variant: conflicting
+  role: peer
+  team: project
